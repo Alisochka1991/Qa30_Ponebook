@@ -40,6 +40,10 @@ public class HelperUser extends HelperBase{//constructor
 
     }
 
+    public boolean isNotLogged() {
+        return isElementPresent(By.xpath("//a[normalize-space()='LOGIN']"));
+    }
+
     public boolean isAlertPresent() {
         Alert alert = new WebDriverWait(wd, 10).until(ExpectedConditions.alertIsPresent());//работа с алертами
         if(alert==null)
@@ -54,5 +58,14 @@ public class HelperUser extends HelperBase{//constructor
             alert.getText();
             return true;
         }
+    }
+
+    public void login() {
+        String email ="alisiaagranov@gmail.com";
+        String password = "212229Alisa$";
+
+        click(By.xpath("//a[normalize-space()='LOGIN']"));
+        fillLoginregistrationform(email, password);
+        submitLogin();
     }
 }

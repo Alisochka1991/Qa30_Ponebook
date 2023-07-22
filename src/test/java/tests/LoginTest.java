@@ -31,7 +31,7 @@ public class LoginTest extends TestBase {
     @Test
     public void loginTest2()
     {
-        String email ="Alisa@gmail.com";
+        String email ="alisa@gmail.com";
         String password = "2234324324";
 
         app.getUser().openLoginRegistrationForm();
@@ -45,7 +45,7 @@ public class LoginTest extends TestBase {
     @Test
     public void loginTestModel()
     {
-        String email ="Alisiaaranov@gmail.com";
+        String email ="alisiaaranov@gmail.com";
         String password = "212229Alisa$";
         User user = new User().setEmail(email).setPassword(password);
         app.getUser().openLoginRegistrationForm();
