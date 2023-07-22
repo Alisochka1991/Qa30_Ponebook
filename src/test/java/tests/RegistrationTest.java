@@ -36,13 +36,17 @@ public class RegistrationTest extends TestBase {
         String email = "alisa" + i + "gmail.com";
         String password = "212229Alisa&";
         System.out.println("Email: " + email);
+        logger.info("Test  registration Positive starts with >>" +email + "&&&" +password );
+
+
 
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginregistrationform(email, password);
         app.getUser().submitRegistration();
         app.getUser().pause(2000);
         //Assert.assertFalse(isElementPresent(By.xpath("(//'qwqew')")));
-        Assert.assertFalse(app.getUser().isLogged());
+        //Assert.assertFalse(app.getUser().isLogged());
+        Assert.assertTrue(app.getUser().isAlertPresent());
 
     }
 
