@@ -1,0 +1,4 @@
+16:13:42 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Testts starts on Chrome Driver
+16:13:45 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact before3
+16:13:45 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact after3
+16:13:45 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Tests Passed

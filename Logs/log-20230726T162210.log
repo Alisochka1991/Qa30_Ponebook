@@ -1,0 +1,5 @@
+16:22:12 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Testts starts on Chrome Driver
+16:22:15 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact before 5
+16:22:15 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- The element that was deleted had pone number---->010101011469
+16:22:17 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact after 4
+16:22:17 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Tests Passed

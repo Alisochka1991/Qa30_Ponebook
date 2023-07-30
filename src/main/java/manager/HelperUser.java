@@ -60,7 +60,7 @@ public class HelperUser extends HelperBase{//constructor
         }
     }
 
-    public void login() {
+    public void login(User user) {
         String email ="alisiaagranov@gmail.com";
         String password = "212229Alisa$";
 

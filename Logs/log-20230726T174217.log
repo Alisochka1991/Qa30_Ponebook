@@ -1,0 +1,13 @@
+17:42:20 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Testts starts on Chrome Driver
+17:42:24 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact before 4
+17:42:24 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- The element that was deleted had pone number---->010101011166
+17:42:25 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact after 3
+17:42:25 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact before 3
+17:42:25 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- The element that was deleted had pone number---->010101011186
+17:42:27 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact after 2
+17:42:27 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact before 2
+17:42:27 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- The element that was deleted had pone number---->010101011204
+17:42:29 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact after 1
+17:42:29 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact before 1
+17:42:29 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- The element that was deleted had pone number---->010101011223
+17:42:45 INFO  manager.HelperBase -%PARSER_ERROR[kvp]- Count of contact after 0

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class RegistrationTest extends TestBase {
 
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void precondition() {
         if (app.getUser().isLogged()) {
             app.getUser().logout();
@@ -19,7 +19,7 @@ public class RegistrationTest extends TestBase {
     public void registrationTestPositive() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600; //генеация уеникальных значений для регистрации
         String email = "alisa" + i + "@gmail.com";
-        String password = "212229Alisa&";
+        String password = "212229Alisa$";
         System.out.println("Email: " + email);
 
         app.getUser().openLoginRegistrationForm();

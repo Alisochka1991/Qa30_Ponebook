@@ -27,3 +27,25 @@ dependencies {
 test {
     useTestNG()
 }
+
+task reg(type: Test)
+{
+    useTestNG
+            {
+              def groups : String = System.getProperty('groups')
+                if(groups !=null)
+                {
+                    includeGroups groups //zapuskaet tolko pomechennye testi
+                }
+
+
+                suites 'src/test/resources.xml'
+            }
+
+
+    if(project.hasProperty('browser'))
+    {
+        systemProperty 'browser', "${browser}"
+    }
+
+} //task dlya zapuska testn.xml
